@@ -1,0 +1,15 @@
+#Bài 3 – Quản lý rủi ro khi mất thiết bị xác thực
+## 1. Quy trình dùng Backup Codes
+- Khi thiết lập MFA, tạo và tải Backup Codes.
+- Lưu mã ở nơi an toàn, tách biệt với điện thoại dùng để xác thực.
+- Có thể in ra và cất ở nơi riêng tư hoặc lưu trong kho mật khẩu an toàn.
+- Khi mất điện thoại, dùng một mã dự phòng để đăng nhập.
+- Sau khi đăng nhập, thiết lập lại MFA trên thiết bị mới và tạo mã dự phòng mới.
+
+## 2. Phân tích theo mô hình IPO
+- Input: Mã dự phòng (Backup Codes).
+- Process: Dùng mã để xác minh danh tính và khôi phục quyền truy cập.
+- Output: Đăng nhập được tài khoản mà không cần điện thoại cũ.
+
+## 3. Vì sao không nên lưu Backup Codes dưới dạng ảnh trong điện thoại?
+Nếu mất điện thoại hoặc tài khoản đồng bộ ảnh bị xâm nhập, người khác có thể lấy được mã. Vì vậy, nên lưu mã ở nơi an toàn và tách biệt với thiết bị xác thực.
